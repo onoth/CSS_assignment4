@@ -1,0 +1,123 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+div.header {
+    height: 60px;
+    background: url("images/hh.jpg") repeat-x;
+
+
+
+}
+
+.container {
+    width: 80%;
+    /* border: 1px solid #fff; */
+    margin: 0px auto;
+    padding-top: 18px;
+}
+
+.logo {
+    color: white;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+.slogan {
+    color: #ccf;
+    font-family: Arial;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.body {
+    width: 500px;
+    /* height: 300px; */
+    margin: 25px auto;
+    border: 1px solid #dcdcdc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: block;
+    box-shadow: 0 0 5px #999;
+
+}
+
+.title {
+    font-size: 15px;
+    font-weight: bold;
+    color: #036;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #eef url("images/lockscreen.png") no-repeat 10px center;
+    padding: 10px 50px;
+    /* text-align: left; */
+}
+
+.lower {
+    display: block;
+    margin: 4px 6px;
+    height: 300px;
+}
+
+.box_left {
+    width: 200px;
+    height: 300px;
+    /* border: 1px solid #000; */
+    box-sizing: border-box;
+    display: inline-block;
+    background: url("images/lock.png") no-repeat center center;
+
+}
+
+
+.box_right {
+
+    width: 280px;
+    height: 300px;
+    /* border: 1px solid #000; */
+    box-sizing: border-box;
+    display: inline-block;
+    float: right;
+    padding-top: 45px;
+
+}
+
+.label {
+    color: #036;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: Arial;
+    /* margin-bottom: 12px; */
+}
+
+input {
+    display: block;
+    font-size: 14px;
+    padding: 4px 5px;
+    /* margin-bottom: 2px; */
+}
+
+
+.login_btn {
+    display: inline-block;
+    margin: 4px 2px;
+    padding: 8px 12px;
+    border: 1px solid #036;
+    font-size: 14px;
+    background: #036;
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    border-radius: 7px;
+    transition: all linear 0.3s;
+}
+
+.login_btn:hover {
+    box-shadow: 0 0 7px #333;
+}
+
+a {
+    text-decoration: none;
+    font-size: 14px;
+}
